@@ -63,6 +63,7 @@
 
 .my-card {
   width: 179px;
+  height: 300px;
   margin-inline: 10px;
 }
 
@@ -106,20 +107,39 @@
   width: 100%;
   overflow-x: scroll;
 }
+.discount {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  left: 0.75rem;
+  top: 0px;
+  position: absolute;
+  z-index: 10;
+}
+.eajROp {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 9px;
+  text-align: center;
+  z-index: 20;
+  position: absolute;
+  white-space: pre-line;
+}
 .my-card-title {
-  box-sizing: content-box;
-  /* overflow: hidden; */
+  white-space: pre-line;
+  height: 36px;
+  overflow: hidden;
   color: rgb(31, 31, 31);
   font-weight: 600;
-  font-size: 13px;
-  width: 13px;
+  /* font-size: 13px; */
+  /* width: 13px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   line-height: 18px;
   width: 100%;
   height: 36px;
-  margin-bottom: 6px;
+  margin-bottom: 6px; */
 }
 .my-footer {
   width: 85%;
